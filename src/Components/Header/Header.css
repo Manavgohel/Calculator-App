@@ -1,0 +1,39 @@
+.header {
+    flex: 1;
+    background: var(--bg-color-1);
+    padding: 20px;
+    overflow-y: scroll;
+}
+.header p {
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: var(--text-color-1);
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Varela Round', sans-serif;
+}
+.header_history {
+    min-height: 80px;
+}
+.header_history p {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: 500;
+}
+.header_expression {
+    overflow-x: scroll;
+    width: 100%;
+    min-height: 30px;
+}
+.header_expression p {
+    white-space: nowrap;
+    min-width: 100%;
+    width: fit-content;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+}
+.header_result {
+    font-family: 'Bitter', serif;
+    font-size: 1.3rem !important;
+    min-height: 30px;
+    font-weight: bold;
+}
